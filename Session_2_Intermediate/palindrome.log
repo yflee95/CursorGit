@@ -1,0 +1,159 @@
+2025-07-18 12:53:29,860 - INFO - ============================================================
+2025-07-18 12:53:29,861 - INFO - PALINDROME TESTING SESSION
+2025-07-18 12:53:29,861 - INFO - ============================================================
+2025-07-18 12:53:29,861 - INFO - 
+Test Case 1: 'racecar'
+2025-07-18 12:53:29,861 - INFO - Starting palindrome check for input: 'racecar' (type: str)
+2025-07-18 12:53:29,862 - INFO - Processing string of length 7
+2025-07-18 12:53:29,862 - INFO - Step 1: Starting character filtering and cleaning
+2025-07-18 12:53:29,862 - INFO - Character filtering complete:
+2025-07-18 12:53:29,862 - INFO -   - Alphanumeric characters found: 7
+2025-07-18 12:53:29,862 - INFO -   - Characters filtered out: 0
+2025-07-18 12:53:29,864 - INFO - Step 2: Converting to lowercase
+2025-07-18 12:53:29,866 - INFO - Case conversion complete:
+2025-07-18 12:53:29,866 - INFO -   - Original alphanumeric: ['r', 'a', 'c', 'e', 'c', 'a', 'r']
+2025-07-18 12:53:29,866 - INFO -   - After lowercase: ['r', 'a', 'c', 'e', 'c', 'a', 'r']
+2025-07-18 12:53:29,867 - INFO - Step 3: Reconstructing cleaned string
+2025-07-18 12:53:29,867 - INFO - String reconstruction complete:
+2025-07-18 12:53:29,867 - INFO -   - Cleaned string: 'racecar'
+2025-07-18 12:53:29,867 - INFO -   - Cleaned string length: 7
+2025-07-18 12:53:29,868 - INFO - Step 4: Performing palindrome check
+2025-07-18 12:53:29,868 - INFO -   - Original cleaned: 'racecar'
+2025-07-18 12:53:29,868 - INFO -   - Reversed cleaned: 'racecar'
+2025-07-18 12:53:29,869 - INFO -   - Comparison result: True
+2025-07-18 12:53:29,883 - INFO - Final result: True
+2025-07-18 12:53:29,883 - INFO - Palindrome check complete for 'racecar' -> True
+2025-07-18 12:53:29,884 - INFO - --------------------------------------------------
+2025-07-18 12:53:29,884 - INFO - Test Case 1 Result: True
+2025-07-18 12:53:29,884 - INFO - 
+Test Case 2: 'A man, a plan, a canal: Panama'
+2025-07-18 12:53:29,884 - INFO - Starting palindrome check for input: 'A man, a plan, a canal: Panama' (type: str)
+2025-07-18 12:53:29,884 - INFO - Processing string of length 30
+2025-07-18 12:53:29,885 - INFO - Step 1: Starting character filtering and cleaning
+2025-07-18 12:53:29,885 - INFO - Character filtering complete:
+2025-07-18 12:53:29,886 - INFO -   - Alphanumeric characters found: 21
+2025-07-18 12:53:29,886 - INFO -   - Characters filtered out: 9
+2025-07-18 12:53:29,887 - INFO -   - Filtered characters: [' ', ',', ' ', ' ', ',', ' ', ' ', ':', ' ']
+2025-07-18 12:53:29,887 - INFO - Step 2: Converting to lowercase
+2025-07-18 12:53:29,887 - INFO - Case conversion complete:
+2025-07-18 12:53:29,887 - INFO -   - Original alphanumeric: ['A', 'm', 'a', 'n', 'a', 'p', 'l', 'a', 'n', 'a', 'c', 'a', 'n', 'a', 'l', 'P', 'a', 'n', 'a', 'm', 'a']
+2025-07-18 12:53:29,888 - INFO -   - After lowercase: ['a', 'm', 'a', 'n', 'a', 'p', 'l', 'a', 'n', 'a', 'c', 'a', 'n', 'a', 'l', 'p', 'a', 'n', 'a', 'm', 'a']
+2025-07-18 12:53:29,888 - INFO - Step 3: Reconstructing cleaned string
+2025-07-18 12:53:29,888 - INFO - String reconstruction complete:
+2025-07-18 12:53:29,888 - INFO -   - Cleaned string: 'amanaplanacanalpanama'
+2025-07-18 12:53:29,888 - INFO -   - Cleaned string length: 21
+2025-07-18 12:53:29,889 - INFO - Step 4: Performing palindrome check
+2025-07-18 12:53:29,889 - INFO -   - Original cleaned: 'amanaplanacanalpanama'
+2025-07-18 12:53:29,889 - INFO -   - Reversed cleaned: 'amanaplanacanalpanama'
+2025-07-18 12:53:29,889 - INFO -   - Comparison result: True
+2025-07-18 12:53:29,892 - INFO - Final result: True
+2025-07-18 12:53:29,892 - INFO - Palindrome check complete for 'A man, a plan, a canal: Panama' -> True
+2025-07-18 12:53:29,892 - INFO - --------------------------------------------------
+2025-07-18 12:53:29,892 - INFO - Test Case 2 Result: True
+2025-07-18 12:53:29,892 - INFO - 
+Test Case 3: 'hello'
+2025-07-18 12:53:29,892 - INFO - Starting palindrome check for input: 'hello' (type: str)
+2025-07-18 12:53:29,893 - INFO - Processing string of length 5
+2025-07-18 12:53:29,893 - INFO - Step 1: Starting character filtering and cleaning
+2025-07-18 12:53:29,893 - INFO - Character filtering complete:
+2025-07-18 12:53:29,893 - INFO -   - Alphanumeric characters found: 5
+2025-07-18 12:53:29,893 - INFO -   - Characters filtered out: 0
+2025-07-18 12:53:29,893 - INFO - Step 2: Converting to lowercase
+2025-07-18 12:53:29,894 - INFO - Case conversion complete:
+2025-07-18 12:53:29,894 - INFO -   - Original alphanumeric: ['h', 'e', 'l', 'l', 'o']
+2025-07-18 12:53:29,895 - INFO -   - After lowercase: ['h', 'e', 'l', 'l', 'o']
+2025-07-18 12:53:29,895 - INFO - Step 3: Reconstructing cleaned string
+2025-07-18 12:53:29,895 - INFO - String reconstruction complete:
+2025-07-18 12:53:29,895 - INFO -   - Cleaned string: 'hello'
+2025-07-18 12:53:29,895 - INFO -   - Cleaned string length: 5
+2025-07-18 12:53:29,895 - INFO - Step 4: Performing palindrome check
+2025-07-18 12:53:29,895 - INFO -   - Original cleaned: 'hello'
+2025-07-18 12:53:29,895 - INFO -   - Reversed cleaned: 'olleh'
+2025-07-18 12:53:29,895 - INFO -   - Comparison result: False
+2025-07-18 12:53:29,904 - INFO - Final result: False
+2025-07-18 12:53:29,905 - INFO - Palindrome check complete for 'hello' -> False
+2025-07-18 12:53:29,905 - INFO - --------------------------------------------------
+2025-07-18 12:53:29,906 - INFO - Test Case 3 Result: False
+2025-07-18 12:53:29,906 - INFO - 
+Test Case 4: ''
+2025-07-18 12:53:29,906 - INFO - Starting palindrome check for input: '' (type: str)
+2025-07-18 12:53:29,906 - INFO - Processing string of length 0
+2025-07-18 12:53:29,907 - INFO - Step 1: Starting character filtering and cleaning
+2025-07-18 12:53:29,907 - INFO - Character filtering complete:
+2025-07-18 12:53:29,907 - INFO -   - Alphanumeric characters found: 0
+2025-07-18 12:53:29,907 - INFO -   - Characters filtered out: 0
+2025-07-18 12:53:29,907 - INFO - Step 2: Converting to lowercase
+2025-07-18 12:53:29,908 - INFO - Case conversion complete:
+2025-07-18 12:53:29,908 - INFO -   - Original alphanumeric: []
+2025-07-18 12:53:29,908 - INFO -   - After lowercase: []
+2025-07-18 12:53:29,908 - INFO - Step 3: Reconstructing cleaned string
+2025-07-18 12:53:29,908 - INFO - String reconstruction complete:
+2025-07-18 12:53:29,908 - INFO -   - Cleaned string: ''
+2025-07-18 12:53:29,909 - INFO -   - Cleaned string length: 0
+2025-07-18 12:53:29,909 - INFO - Step 4: Performing palindrome check
+2025-07-18 12:53:29,909 - INFO - Empty string after cleaning - considered palindrome
+2025-07-18 12:53:29,909 - INFO - Final result: True
+2025-07-18 12:53:29,909 - INFO - Palindrome check complete for '' -> True
+2025-07-18 12:53:29,910 - INFO - --------------------------------------------------
+2025-07-18 12:53:29,910 - INFO - Test Case 4 Result: True
+2025-07-18 12:53:29,910 - INFO - 
+Test Case 5: '12321'
+2025-07-18 12:53:29,910 - INFO - Starting palindrome check for input: '12321' (type: str)
+2025-07-18 12:53:29,911 - INFO - Processing string of length 5
+2025-07-18 12:53:29,911 - INFO - Step 1: Starting character filtering and cleaning
+2025-07-18 12:53:29,911 - INFO - Character filtering complete:
+2025-07-18 12:53:29,911 - INFO -   - Alphanumeric characters found: 5
+2025-07-18 12:53:29,911 - INFO -   - Characters filtered out: 0
+2025-07-18 12:53:29,911 - INFO - Step 2: Converting to lowercase
+2025-07-18 12:53:29,911 - INFO - Case conversion complete:
+2025-07-18 12:53:29,911 - INFO -   - Original alphanumeric: ['1', '2', '3', '2', '1']
+2025-07-18 12:53:29,911 - INFO -   - After lowercase: ['1', '2', '3', '2', '1']
+2025-07-18 12:53:29,911 - INFO - Step 3: Reconstructing cleaned string
+2025-07-18 12:53:29,911 - INFO - String reconstruction complete:
+2025-07-18 12:53:29,911 - INFO -   - Cleaned string: '12321'
+2025-07-18 12:53:29,916 - INFO -   - Cleaned string length: 5
+2025-07-18 12:53:29,917 - INFO - Step 4: Performing palindrome check
+2025-07-18 12:53:29,917 - INFO -   - Original cleaned: '12321'
+2025-07-18 12:53:29,917 - INFO -   - Reversed cleaned: '12321'
+2025-07-18 12:53:29,917 - INFO -   - Comparison result: True
+2025-07-18 12:53:29,917 - INFO - Final result: True
+2025-07-18 12:53:29,917 - INFO - Palindrome check complete for '12321' -> True
+2025-07-18 12:53:29,917 - INFO - --------------------------------------------------
+2025-07-18 12:53:29,917 - INFO - Test Case 5 Result: True
+2025-07-18 12:53:29,917 - INFO - 
+Test Case 6: 'Was it a car or a cat I saw?'
+2025-07-18 12:53:29,917 - INFO - Starting palindrome check for input: 'Was it a car or a cat I saw?' (type: str)
+2025-07-18 12:53:29,917 - INFO - Processing string of length 28
+2025-07-18 12:53:29,917 - INFO - Step 1: Starting character filtering and cleaning
+2025-07-18 12:53:29,917 - INFO - Character filtering complete:
+2025-07-18 12:53:29,917 - INFO -   - Alphanumeric characters found: 19
+2025-07-18 12:53:29,917 - INFO -   - Characters filtered out: 9
+2025-07-18 12:53:29,917 - INFO -   - Filtered characters: [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '?']
+2025-07-18 12:53:29,928 - INFO - Step 2: Converting to lowercase
+2025-07-18 12:53:29,928 - INFO - Case conversion complete:
+2025-07-18 12:53:29,928 - INFO -   - Original alphanumeric: ['W', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r', 'o', 'r', 'a', 'c', 'a', 't', 'I', 's', 'a', 'w']
+2025-07-18 12:53:29,928 - INFO -   - After lowercase: ['w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r', 'o', 'r', 'a', 'c', 'a', 't', 'i', 's', 'a', 'w']
+2025-07-18 12:53:29,928 - INFO - Step 3: Reconstructing cleaned string
+2025-07-18 12:53:29,929 - INFO - String reconstruction complete:
+2025-07-18 12:53:29,929 - INFO -   - Cleaned string: 'wasitacaroracatisaw'
+2025-07-18 12:53:29,929 - INFO -   - Cleaned string length: 19
+2025-07-18 12:53:29,929 - INFO - Step 4: Performing palindrome check
+2025-07-18 12:53:29,929 - INFO -   - Original cleaned: 'wasitacaroracatisaw'
+2025-07-18 12:53:29,931 - INFO -   - Reversed cleaned: 'wasitacaroracatisaw'
+2025-07-18 12:53:29,931 - INFO -   - Comparison result: True
+2025-07-18 12:53:29,931 - INFO - Final result: True
+2025-07-18 12:53:29,931 - INFO - Palindrome check complete for 'Was it a car or a cat I saw?' -> True
+2025-07-18 12:53:29,931 - INFO - --------------------------------------------------
+2025-07-18 12:53:29,931 - INFO - Test Case 6 Result: True
+2025-07-18 12:53:29,931 - INFO - 
+============================================================
+2025-07-18 12:53:29,931 - INFO - TESTING SESSION COMPLETE
+2025-07-18 12:53:29,931 - INFO - ============================================================
+2025-07-18 12:57:17,939 - INFO - Starting palindrome check for input: 'A man, a plan, a canal: Panama' (type: str)
+2025-07-18 12:57:17,939 - INFO - Original input length: 30 characters
+2025-07-18 12:57:17,940 - INFO - Starting character cleaning process...
+2025-07-18 12:57:17,940 - INFO - Cleaning complete: 21 characters kept, 9 characters removed
+2025-07-18 12:57:17,943 - INFO - Removed characters: [' ', ',', ' ', ' ', ',', ' ', ' ', ':', ' ']
+2025-07-18 12:57:17,943 - INFO - Cleaned string: 'amanaplanacanalpanama' (length: 21)
+2025-07-18 12:57:17,943 - INFO - Reversed string: 'amanaplanacanalpanama'
+2025-07-18 12:57:17,943 - INFO - Comparison result: 'amanaplanacanalpanama' == 'amanaplanacanalpanama' -> True
